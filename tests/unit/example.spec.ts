@@ -1,9 +1,9 @@
 import { mount } from '@vue/test-utils'
-import Home from '@/views/Home.vue'
+import MemoriesPage from '@/pages/MemoriesPage.vue'
 
-describe('Home.vue', () => {
-  it('renders home vue', () => {
-    const wrapper = mount(Home)
+describe('MemoriesPage.vue', () => {
+  it('renders MemoriesPage vue', () => {
+    const wrapper = mount(MemoriesPage)
     expect(wrapper.text()).toMatch('Ready to create an app?')
   })
 })
