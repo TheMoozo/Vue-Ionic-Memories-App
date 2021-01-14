@@ -1,0 +1,7 @@
+{
+  "name": "KafeelMobileAppIonic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
